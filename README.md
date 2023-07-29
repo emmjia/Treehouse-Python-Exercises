@@ -7,4 +7,6 @@ practice_error_handling.py - Try/Except Blocks to handle potential errors.
 
 practice_while_loops.py - On this exercise python will request name and a simple yes or no question.
 
-using_a_function.py - Presents the challenge of creating a function that will return True if a value is odd or not.
+create_a_function.py - Presents the challenge of creating a function that will return True if a value is odd or not.
+
+using_a_function.py - The exercise provides several premade functions. Challenge is to call function and also present a try/except block for error handling
