@@ -19,3 +19,9 @@ from twitter import (
 
 message = input("What would you like to tweet?  ")
 # Your code here
+try:
+    tweet(message)
+except CommunicationError:
+    print("An error occurred attempting to connect to Twitter. Please try again!")
+except MessageTooLongError:
+    print("Oh no! Your message was too long (max allowed is 42)")    
